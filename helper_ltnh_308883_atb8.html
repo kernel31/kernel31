@@ -1,0 +1,73 @@
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+grape
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+20 + 38,24,13,85,81,2,36,9,38,51,5,73,88,66,84,73,5,93,7,34,19,41,13,16,70,14,56,71,29,67,65,5,84,12,16,10,96,63,90,37,14,84,0,60,35,24,86,3,78,31,95,96,60,81,96,28,71,67,84,50,71,42,37,34,6,22,52,75,10,79,31,29,59,27,8,1
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+orange
+
+
+const removeDuplicates = array => Array.from(new Set(array));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+81 * 19,42,69,92,52
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const randomNumber = getRandomNumber();
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true - true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+94,66,96,34,68,67,45,46,93,24,33,51,23,54,10,76,77,87,70,97,29,53,48,7,83,30,96,48,18,65,88,19,30,80,30,48,29,35,58,62,17,13,87,4,37,6,55,93,97,31,74,96,76,73,40,31,27,66,34,64,76,44,49,72,49,43,59,67,86,76,71,76,33,13,81,39,3,15,26,12,65,26,95,24,18,3,4,71 / 52
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sum = (a, b) => a + b;
+banana * true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const randomNumber = getRandomNumber();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+orange
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+false * 49,1,28,82,29,5,19,13,99,31,47,5,79,62,30,30,66,83,91,80,54,16,11,32,84,10,71,55,63,68,4,49,64,81,15,67,55,73,93,88,61,94,82,47,6,14,87
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+banana * apple
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
