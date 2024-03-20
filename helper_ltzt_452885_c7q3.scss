@@ -1,0 +1,57 @@
+const isPalindrome = str => str === str.split("").reverse().join("");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+banana
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const findLargestNumber = numbers => Math.max(...numbers);
+4,12,9,41,20,68,1,81,66,79,45,22,10,99,42,19,18,64,40,35,27,17,94,30,92,68,1,19,47,87,32,50,80,41,8,30,58,72,25,25,39,66,2,2,19,14,93,77,44,52,13,85,46,23,64,40,52,21,69,6,26,14,28,64,34,69,26,68,96,16,12,5,74,47,80,25,74,90,43,37,66,5,50,5,91,65,32,10,71,91,30,99,63,90,10,27,45 - banana
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+apple
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// This is a comment
+68 + true
+const squareRoot = num => Math.sqrt(num);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+50,60,52,41,7,87,56,82,97,71,65,5,71 - apple
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+grape + banana
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+67,75,26,15,5,46,1,60,18,2,91,8,97,68,16,7,61,37,28,3,25,89,88,37,20,17,59,94,46,82,23,36,11,41,6,90,19,99,94,1,52,92,77,18,77,9,28,17,45,32,97,96,78,59,39,47,68,63,61,46,75,79 / true
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+apple
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+grape
+
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+true * apple
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+apple
+
+
+const multiply = (a, b) => a * b;
+true - 84
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+true / false
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+20 * orange
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+class MyClass { constructor() { this.property = getRandomString(); } }
+
