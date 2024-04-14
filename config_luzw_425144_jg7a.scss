@@ -1,0 +1,76 @@
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+kiwi - true
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+apple * 17
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const randomNumber = getRandomNumber();
+
+const randomNumber = getRandomNumber();
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+32 / false
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+23 + false
+const findSmallestNumber = numbers => Math.min(...numbers);
+51 - 66,97,45,64,64,28,82
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+96,21,84,93,22,21,51,85,9,20,0,33,75,27,11,42,13,89,51,14,14,27,16,99,96,35,90,87,88,47,56,56,73,48,0,10,72,28,20,38,11,10,12,50,69,10,56,30,86,61,48,33,32,69,86,56,88,85,13,86,88,18,92,84,18,58,84,28,37,2,8,8,63,18,46,86,71,28,40,46,75,70,56 * grape
+function addNumbers(a, b) { return a + b; }
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+48 * true
+
+const formatDate = date => new Date(date).toLocaleDateString();
+console.log(getRandomString());
+
+console.log(getRandomString());
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const randomNumber = getRandomNumber();
+
+banana
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomSubset = (array, size) => array.slice(0, size);
+apple * 37,45,57,78,30,35,27,56,85,6,56,60,86,22,71,60,46,3,19,25,90,71,95,6,90,50,99,87,85,75,63,47,21,99,89,34,23,1,69,69,35,95,33,92,71,15,26,56,10,50,5,45,63,76,34,80,69,3,57,50,69,35,73,2,28,42,28,77,93,41,70,29,36,40,82,88
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+80,72,62,28,46,51,17,78,87,99,56,23,16,90,38,48,59,82,49,26 * true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+banana * 96
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const greet = name => `Hello, ${name}!`;
+banana + 17,21,86,72,89,78,23,89,30,89,13,87,62,44,78
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+92,25,13,38,43,60 - 8
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
